@@ -1,0 +1,36 @@
+html, body {
+  height:100%;
+  margin:0;
+}
+
+body {
+    background-color:#f2f2f2;
+
+}
+
+.header {
+  background-color:#4d4d4d;
+  height:15%;
+  width:100%;
+}
+.left {
+  background-color:#cccccc;
+  height:100%;
+  width:8%;
+  float:left;
+}
+.right {
+  background-color:#cccccc;
+  height:100%;
+  width:8%;
+  float:right;
+}
+.footer {
+  background-color:#4d4d4d;
+  height:10%;
+  width:84%;
+  clear:both;
+  margin-left:8%;
+  
+}
+

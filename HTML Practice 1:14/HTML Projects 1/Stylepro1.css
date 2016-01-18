@@ -1,0 +1,37 @@
+html, body {
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.left {
+  height:100%;
+  width:33.33%;
+  background-color:grey;
+  float:left;
+}
+.mid {
+  height:100%;
+  width:33.33%;
+  background-color:#4db8ff;
+  float:left;
+}
+.right {
+  height:75%;
+  width:33.34%;
+  background-color:blue;
+  display:inline-block;
+  position:relative;
+}
+.img {
+  height:25%;
+  width:33.33%;
+  background-color:red;
+  bottom:0
+  position:absolute;
+  display:inline-block;
+}
+p {
+  font-size:30px;
+  text-align:center;
+  font-color:white;
+}
