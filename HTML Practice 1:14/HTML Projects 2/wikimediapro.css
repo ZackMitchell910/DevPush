@@ -1,0 +1,89 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+
+}
+body {
+	font:13px/1.5 sans-serif;
+}
+.para {
+	margin: 0 auto;
+	width: 100%;
+	background-color: white;
+	height:;
+}
+
+.para p {
+	margin: 0 auto;
+	color:black;
+	width: 68%;
+	font-size: 130%;
+	display:block;
+
+}
+
+p {
+	
+	display:block;
+	font-size: 150%;
+	padding-top: 30px;
+
+}
+.style {
+	color:#0645AC;
+}
+.container {
+
+	-webkit-column-count:4;
+	margin: auto;
+	width:80%;
+
+}
+img:hover {
+	background-color: whitesmoke;
+
+}
+.icon {
+	height:175px;
+	display:inline-block;
+	padding-top:20px;
+	min-width: 150px;
+	max-width:300px;
+	line-height: 175px;
+	text-align: center;
+}
+
+.wiki {
+	
+	margin:auto;
+	text-align: center;
+
+	
+}
+.wiki img {
+	border:none;
+	vertical-align: middle;
+	width:135px;
+
+}
+@media(max-width: 870px){
+	.container {
+		-webkit-column-count:3;
+
+}
+@media(max-width: 700px){
+	.container {
+		-webkit-column-count:2;
+
+}
+.footer {
+	margin:auto;
+	text-align: center;
+	right:0;
+    bottom:0;
+	left:0;
+	position:static;
+	width:70%
+
+}
